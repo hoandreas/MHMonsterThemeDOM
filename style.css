@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap');
+body {
+    background-image: url('assets/chalkboard.jpg');
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: tan;
+    margin-top: 250px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftCol, .rightCol {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+.title {
+    color: white;
+}
+
+.monster {
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0);
+    width: 100px;
+    height: 100px;
+    color: rgba(0,0,0,0);
+    outline: none;
+    border: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    top: 5rem;
+    margin-left: 35px;
+}
+
+.nargacuga {
+    background-image: url('assets/nargacuga-icon.png');
+    display: inline;}
+
+
+.lagiacrus {
+    background-image: url('assets/lagiacrus-icon.png');
+    display: inline;
+}
+
+.mizutsune {
+    background-image: url('assets/mizutsune-icon.png');
+    display: inline;
+}
+
+.zinogre {
+    background-image: url('assets/zinogre-icon.png');
+    display: inline;
+}
+
+.astalos {
+    background-image: url('assets/astalos-icon.png');
+    display: inline;
+}
+
+.gore {
+    background-image: url('assets/gore-icon.png');
+    display: inline;
+}
+
+.deviljho {
+    background-image: url('assets/deviljho-icon.png');
+    display: inline;
+}
+
+.brachydios {
+    background-image: url('assets/brachydios-icon.png');
+    display: inline;
+}
+
+.valstrax {
+    background-image: url('assets/valstrax-icon.png');
+    display: inline;
+}
+
+.fatalis {
+    background-image: url('assets/fatalis-icon.png');
+    display: inline;
+}
